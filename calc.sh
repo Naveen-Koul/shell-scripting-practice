@@ -46,6 +46,14 @@ case $selection in
     echo "The division of $first_number and $second_number is:"
     expr $first_number / $second_number
     ;;
+     "Multiply")
+    echo "Please enter the first number:"
+    read first_number
+    echo "Please enter the second number:"
+    read second_number
+    echo "The multiplication of $first_number and $second_number is:"
+    expr $first_number \* $second_number
+    ;;
   "Exit")
     echo "See you again soon, till then Goodbye..."
     exit 0
